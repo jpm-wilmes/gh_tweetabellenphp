@@ -44,10 +44,10 @@ Later kan deze optioneel in een klasse worden aangeboden.
     vervolgens krijg je een inputformulier voor een game dat je voor die gebruiker
     invoert. Tip: bewaar de id van de gebruiker in je schermen
 
-600) maak een programma dat alle informatie van een gebruiker en alle games 
+600) maak een programma gamespergebruiker.php dat alle informatie van een gebruiker en alle games 
     op een scherm laat zien. Je selecteert de gebruiker met een dropdown
 
-700) het einde is in zicht. Maak een scherm van alle gebruikers. Als je op een gebruiker klikt
+700) het einde is in zicht. Maak een scherm gebruikers.php van alle gebruikers. Als je op een gebruiker klikt
     opent een nieuw scherm met alle games. Je kunt hier games aanmaken voor de gebruiker,
     games verwijderen van een gebruiker en games wijzigen van een gebruiker.
 701) maak een TO voor dit onderdeel. Maak gebruik van de template
