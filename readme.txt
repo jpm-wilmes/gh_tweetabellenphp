@@ -1,18 +1,18 @@
 Oefenen met koppeltabellen en CRUD
 
-Dit programma is bedoeld als refresh voor studenten die moeite hebben om 
+Dit programma van 3-6 weken is bedoeld als refresh voor studenten die moeite hebben om 
 code te lezen en zelf code te bedenken. Het is een puur-php opdracht. Geen css (kan optioneel wel)
 en geen JS (kan optioneel ook).
 
 De werkvorm is interactief programmeren en vereist aanwezigheid en concentratie
-van de student. 
+van de student. Zelfstandig vooruitlopen is toegestaan.
 
-Er wordt gebruik gemaakt van een database driver die reeds voorbereid is en universeel inzetbaar is
+Er wordt gebruik gemaakt van een database klasse die reeds voorbereid is en universeel inzetbaar is
 Later kan deze optioneel in een klasse worden aangeboden.
 
 
 1) maak een database 'tweetabellen'
-2) maak tabel eigenaars met eigenaars met id (AI), leigenaar, bijnaam
+2) maak tabel eigenaars met eigenaars met id (AI), eigenaar, bijnaam
 3) maak tabel games met id (AI), gamenaam, opmerking, id_eigenaar (FK)
 4) geef alle rechten aan database tweetallen met username tweetallen en wachtwoord tweetallen
 5) maak een map aan in htdocs met de naam tweetallen

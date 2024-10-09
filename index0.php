@@ -10,7 +10,16 @@ include 'includes/database.inc.php';
 // this part is for setup reasons only and not part of the application
 
 $queryData = array("Jason");
-var_dump($queryData);
+// query
 $result = Database::getData("SELECT * FROM eigenaars WHERE eigenaar = ?", $queryData);
 
-var_dump($result);
+echo "Seriele output (JSON) kan met echo:<BR>";
+echo Database::jsonParse($result) . "<BR><BR>";
+echo "Array output moet met var_dump():<BR>";
+var_dump($result); echo "<BR><BR>";
+
+// another query reading all data
+// alternatieve query met INNER JOIN from 2 tables
+echo "Another query using 2 tables:";
+$result = Database::getData("SELECT eigenaar, bijnaam, games.gamenaam, games.opmerking FROM eigenaars INNER JOIN games ON eigenaars.id = games.id_eigenaar");
+echo Database::jsonParse($result);

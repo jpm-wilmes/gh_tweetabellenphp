@@ -5,3 +5,4 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 // load database class
 include 'includes/database.inc.php';
+// database is nu beschikbaar via Databases::getData()
