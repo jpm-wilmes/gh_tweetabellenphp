@@ -7,10 +7,18 @@ en geen JS (kan optioneel ook).
 De werkvorm is interactief programmeren en vereist aanwezigheid en concentratie
 van de student. Zelfstandig vooruitlopen is toegestaan.
 
-Er wordt gebruik gemaakt van een database klasse die reeds voorbereid is en universeel inzetbaar is
+Er wordt gebruik gemaakt van een database klasse Database die reeds voorbereid is en universeel inzetbaar is
 Later kan deze optioneel in een klasse worden aangeboden.
 
+Benodigde ontwikkelomgeving
 
+1) PHP geïnstalleerd en te starten via VSCode terminal
+2) MySQL via XAMPP of via MySQL workbench
+3) VSCode
+
+Inhoud
+
+0) zorg voor een werkende ontwikkelomgeving
 1) maak een database 'tweetabellen'
 2) maak tabel eigenaars met eigenaars met id (AI), eigenaar, bijnaam
 3) maak tabel games met id (AI), gamenaam, opmerking, id_eigenaar (FK)
