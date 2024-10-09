@@ -52,7 +52,7 @@ abstract class Database {
             $pdo = Database::dbConnect();
 			$stmt = $pdo->prepare($p_sSql);	// prepare the query
 			if(is_array($p_aData)) {		// add the data
-				$stmt->execute($p_aData);	// execute the query
+				$stmt->execute($p_aData);	// execute the query with data
 			} else {
 				$stmt->execute();			// execute when no parameters
 			}

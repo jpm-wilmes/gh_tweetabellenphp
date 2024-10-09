@@ -61,3 +61,9 @@ Later kan deze optioneel in een klasse worden aangeboden.
 
 1000) maak een presentatie waarin je je opgebouwde kennis laat zien. Met screenshots 
     leg je uit wat je hebt gemaakt en in de laatste sheet vertel je wat je hebt geleerd.
+
+2000) als je alles klaar hebt kun je aan de volgende onderdelen beginnen
+2001) maak een eenvoudige layout voor het programma. Je mag hiervoor een framework kiezen
+2002) ga in plaats van de form knoppen gebruik maken van JS
+2003) In opdracht 700) wordt een nieuw browserscherm geopend voor de games. Maak in
+    plaats hiervan een JS pop-up
