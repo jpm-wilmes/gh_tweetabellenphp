@@ -17,7 +17,7 @@ Later kan deze optioneel in een klasse worden aangeboden.
 4) geef alle rechten aan database tweetallen met username tweetallen en wachtwoord tweetallen
 5) maak een map aan in htdocs met de naam tweetallen
 6) zet in de map de database klasse Database
-7) stel de toegangsgegevens in in dbase.php
+7) stel de toegangsgegevens in in database.inc.php
 
 100) maak een php programma read.php
 101) include hierin database.inc.php (let op de juiste instellingen, zie 7)
