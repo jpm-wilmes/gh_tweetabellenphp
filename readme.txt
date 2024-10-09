@@ -35,6 +35,8 @@ Later kan deze optioneel in een klasse worden aangeboden.
 
 400) maak een php programma creategebruiker.php dat via een formulier een nieuwe
     gebruiker aanmaakt. Toegepaste techniek is POST
+401) maak een testplan, testscenario en testverslag van dit onderdeel in één Word document.
+    gebruik template!
 
 500) maak een voeggametoe.php dat een game toevoegt aan een bestaande gebruiker
     de gebruiker selecteer je met een dropdown. Toegepaste techniek GET
@@ -45,3 +47,17 @@ Later kan deze optioneel in een klasse worden aangeboden.
 600) maak een programma dat alle informatie van een gebruiker en alle games 
     op een scherm laat zien. Je selecteert de gebruiker met een dropdown
 
+700) het einde is in zicht. Maak een scherm van alle gebruikers. Als je op een gebruiker klikt
+    opent een nieuw scherm met alle games. Je kunt hier games aanmaken voor de gebruiker,
+    games verwijderen van een gebruiker en games wijzigen van een gebruiker.
+701) maak een TO voor dit onderdeel. Maak gebruik van de template
+702) maak de 3 testdocumenten voor dit onderdeel. Maak gebruik van de template
+703) schrijf de code voor de lijst van gebruikers
+704) maak voor elke gebruiker een doorverwijsknop naar het programm lijstgames.php
+705) maak vervolgens het programma lijstgames.php dat de CRUD voor de games bevat.
+    voor elke game staat een wijzig of verwijder icoontje
+    bovenin staat een knop om een game toe te voegen
+    De toegevoegde game hoort alleen bij de gebruiker waarvoor deze wordt toegevoegd
+
+1000) maak een presentatie waarin je je opgebouwde kennis laat zien. Met screenshots 
+    leg je uit wat je hebt gemaakt en in de laatste sheet vertel je wat je hebt geleerd.
