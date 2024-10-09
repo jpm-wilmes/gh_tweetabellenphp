@@ -16,11 +16,11 @@ Later kan deze optioneel in een klasse worden aangeboden.
 3) maak tabel games met id (AI), gamenaam, opmerking, id_eigenaar (FK)
 4) geef alle rechten aan database tweetallen met username tweetallen en wachtwoord tweetallen
 5) maak een map aan in htdocs met de naam tweetallen
-6) zet in de map de database klasse dbase.php
+6) zet in de map de database klasse Database
 7) stel de toegangsgegevens in in dbase.php
 
 100) maak een php programma read.php
-101) include hierin dbase.php (let op de juiste instellingen, zie 7)
+101) include hierin database.inc.php (let op de juiste instellingen, zie 7)
 102) bedenkt een query die alle data leest uit de twee tabellen:
     eigenaar, bijnaam, gamenaam, opmerking
 103) test de query in phpmyadmin 
