@@ -22,4 +22,5 @@ var_dump($result); echo "<BR><BR>";
 // alternatieve query met INNER JOIN from 2 tables
 echo "Another query using 2 tables:";
 $result = Database::getData("SELECT eigenaar, bijnaam, games.gamenaam, games.opmerking FROM eigenaars INNER JOIN games ON eigenaars.id = games.id_eigenaar");
+// So syntax SELECT table1.field, table1.field,..., table2.field, .... FROM table1 INNER JOIN table2 ON table1.id = table2.field.fk
 echo Database::jsonParse($result);

@@ -1,0 +1,14 @@
+<?php
+// form template including processing
+
+// TODO processing (using IF ISSET())
+if isset($_POST["ftsubmit"]){ ?>
+
+<?php } ?>
+<!-- // TODO html form -->
+<form action="formtemplate.php" method="post">
+    <input type = "text" id = "field1" name = "field1" value = "vulwatin">
+    <label for "field1">field1</label><br>
+    <input type = "submit" id = "submit" name = "ftsubmit">
+    <label for "submit">OK</label><br>
+</form>

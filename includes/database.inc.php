@@ -1,29 +1,22 @@
 <?php
 /*************************************************************
-	Pagebuilder framework application
+	Database class
 	Learning application for VISTA AO JL2 P5
 	Created 2019 by e.steens / j. wilmes
 *************************************************************/
-/*
-	Pagebuilder framework database
 
-	// database implemented abstract because only one implementation required
-	CREDENTIALS:    
-*/
-
-	define("DBHOST", "localhost"); // hostname (mostly localhost)
-	define("DBNAME", "tweetabellen"); // name of the database
-	define("DBUSER", "tweetabellen"); // name of the databaseuser ie. root
-	define("DBPASS", "tweetabellen"); // password of the databaseuser
-
-// DO NOT MODIFY BELOW THIS LINE
 abstract class Database {
-
+		// define database access constants (use const to remain inside class scope)
+		const DBHOST="localhost"; // hostname (mostly localhost)
+		const DBNAME="tweetabellen"; // name of the database
+		const DBUSER="tweetabellen"; // name of the database user
+		const DBPASS="tweetabellen"; // password of the database user
+// DO NOT MODIFY BELOW THIS LINE
 		private static function dbConnect() {
-            $dbhost		= DBHOST;
-            $dbname		= DBNAME;
-            $dbuser		= DBUSER;
-            $dbpass		= DBPASS;
+            $dbhost		= self::DBHOST;
+            $dbname		= self::DBNAME;
+            $dbuser		= self::DBUSER;
+            $dbpass		= self::DBPASS;
             $conn		= "";                        // connection string
             $pdo		= NULL;                      // handler
             $charset = 'utf8mb4';
