@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 // load database class
-include 'includes/database.inc.php';
+include '../includes/database.inc.php';
 
 // test to check database settings
 // this part is for setup reasons only and not part of the application
