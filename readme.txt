@@ -22,8 +22,8 @@ Inhoud
 1) maak een database 'tweetabellen'
 2) maak tabel eigenaars met id (AI), eigenaar, bijnaam
 3) maak tabel games met id (AI), gamenaam, opmerking, id_eigenaar (FK)
-4) geef alle rechten aan database tweetallen met username tweetallen en wachtwoord tweetallen
-5) maak een map aan in htdocs met de naam tweetallen
+4) geef alle rechten aan database tweetabellen met username tweetabellen en wachtwoord tweetabellen
+5) maak een map aan in htdocs met de naam tweetabellen
 6) zet in de map de database klasse Database
 7) stel de toegangsgegevens in in database.inc.php
 
