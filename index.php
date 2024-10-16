@@ -6,3 +6,4 @@ error_reporting(E_ALL);
 // load database class
 include 'includes/database.inc.php';
 // database is nu beschikbaar via Databases::getData()
+echo "Ik ben er";

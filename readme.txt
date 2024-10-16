@@ -20,7 +20,7 @@ Inhoud
 
 0) zorg voor een werkende ontwikkelomgeving
 1) maak een database 'tweetabellen'
-2) maak tabel eigenaars met eigenaars met id (AI), eigenaar, bijnaam
+2) maak tabel eigenaars met id (AI), eigenaar, bijnaam
 3) maak tabel games met id (AI), gamenaam, opmerking, id_eigenaar (FK)
 4) geef alle rechten aan database tweetallen met username tweetallen en wachtwoord tweetallen
 5) maak een map aan in htdocs met de naam tweetallen

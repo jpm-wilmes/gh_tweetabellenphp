@@ -1,4 +1,9 @@
 <?php
+// Test and demo program for using database.inc.php. Connection, data retrieval 
+// and two-table query including INNER JOIN are included
+
+// 2024 Jeroen Wilmes
+
 // enable all errors
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
