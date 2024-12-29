@@ -2,7 +2,7 @@
 // form template including processing
 
 // TODO processing (using IF ISSET())
-if isset($_POST["ftsubmit"]){ ?>
+if (isset($_POST["ftsubmit"]){ ?>
 
 <?php } ?>
 <!-- // TODO html form -->

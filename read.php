@@ -14,5 +14,13 @@ $results = Database::getData($sql);
 
 var_dump($results);
 
-echo $results[1]["gamenaam"] . "<BR>";
+// TODO uitlezen met foreach()
 
+// header van tebel maken html tabel opbouwen
+
+// doorloop alle rijen foreach 
+
+// per rij maak je een "regel" waarin alle velden straan (eingenaar, bijnaam, gamennaam en op) 
+// en hoe maak ik een tabelregel;
+
+// tabel afsluiten
